@@ -43,7 +43,7 @@ nav li {
 }
 
 nav a {
-  font-family: "Nunito";
+  font-family: Nunito, sans-serif;
   display: block;
   padding: .5em .75em;
   color: #333;
@@ -209,7 +209,7 @@ dd {
 
 footer {
   background-color: #000;
-  font-family: "Nunito";
+  font-family: Nunito, sans-serif;
 }
 
 footer h3 {
@@ -238,7 +238,7 @@ footer a {
 }
 
 #copyright a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* profile */
