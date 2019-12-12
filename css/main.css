@@ -475,7 +475,11 @@ h2 {
   }
 
   .content-text .btn {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
+  }
+
+  .btn-big {
+    font-size: 1.5rem;
   }
 
 }
