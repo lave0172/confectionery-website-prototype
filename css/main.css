@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #0287FC;
 }
 
 header {
@@ -57,13 +58,13 @@ nav a:hover {
 }
 
 section {
-  background-color: #f0f;
+  background-color: #0287FC;
   display: flex;
   flex-wrap: wrap;
 }
 
 .banner {
-  background-color: #f0f;
+  background-color: #0287FC;
 }
 
 section .wrapper {
@@ -120,11 +121,11 @@ p {
   width: 100%;
 }
 
-.photo:nth-child(2) {
+.photo:nth-child(5) {
   display: none;
 }
 
-.photo:nth-child(5) {
+.photo:nth-child(6) {
   display: none;
 }
 
@@ -139,6 +140,7 @@ p {
   border-radius: 25px;
   text-decoration: none;
   margin: 15px auto;
+  margin: 5px;
 }
 
 .link-card .btn {
@@ -166,6 +168,7 @@ p {
   font-family: Georgia;
   font-size: 1rem;
   color: #512200;
+  padding-bottom: 12px;
 }
 
 .border {
@@ -203,6 +206,14 @@ dd {
 
 .link-card:hover .btn {
   background-color: #512200;
+}
+
+.card-2 {
+  display: none;
+}
+
+.card-3 {
+  display: none;
 }
 
 /* footer */
@@ -364,6 +375,11 @@ h2 {
     text-align: center;
   }
 
+  .photo {
+    display: flex;
+    width: 50%;
+  }
+
   .img-flex {
     display: block;
     width: 100%;
@@ -377,6 +393,20 @@ h2 {
 
   .section-right-image {
     padding: 1px;
+  }
+
+  .card {
+    display: flex;
+    width: 50%;
+  }
+
+  .card-3 {
+    display: none;
+  }
+
+  .card-gallery {
+    display: flex;
+    flex-wrap: wrap;
   }
 
 }
@@ -415,6 +445,32 @@ h2 {
 
   div:nth-of-type(3) {
     order: 100;
+  }
+
+  .photo {
+    display: flex;
+    width: 33.3333%
+  }
+
+  .photo:nth-child(5) {
+    display: flex;
+  }
+
+  .photo:nth-child(6) {
+    display: flex;
+  }
+
+.card-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+  .card {
+    display: flex;
+    width: 33.3333%;
+  }
+
+  .card-3 {
+    display: flex;
   }
 
 }
