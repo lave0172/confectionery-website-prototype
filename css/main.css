@@ -327,6 +327,7 @@ footer h4 {
 
 .content-text {
   max-width: 60%;
+  font-size: .8rem;
 }
 
 h2 {
@@ -334,7 +335,6 @@ h2 {
 }
 
 .content-text p {
-  line-height: 1.5;
   margin: .5em 0;
 }
 
@@ -399,6 +399,10 @@ h2 {
   .card-gallery {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .content-text p {
+    font-size: 1rem;
   }
 
 }
@@ -472,6 +476,7 @@ h2 {
 
   .content-text p {
     font-size: 1.5rem;
+    line-height: 1.5;
   }
 
   .content-text .btn {
