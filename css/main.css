@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #0287FC;
+  background-color: #0287fc;
 }
 
 header {
@@ -58,13 +58,13 @@ nav a:hover {
 }
 
 section {
-  background-color: #0287FC;
+  background-color: #0287fc;
   display: flex;
   flex-wrap: wrap;
 }
 
 .banner {
-  background-color: #0287FC;
+  background-color: #0287fc;
 }
 
 section .wrapper {
@@ -153,15 +153,15 @@ p {
   text-decoration: none;
 }
 
-.link-card .btn-wrap {
-  text-align: center;
-}
-
 .link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   color: #512200;
   margin: 0;
+}
+
+.link-card .btn-wrap {
+  text-align: center;
 }
 
 .link-card p {
@@ -231,6 +231,7 @@ footer h3 {
 
 footer a {
   text-align: center;
+  color: #0287fc;
 }
 
 #copyright {
@@ -254,30 +255,22 @@ footer a {
 }
 
 /* Social */
-.well{
-  background-color:rgba(255,255,255,0.1);
-  border:none;
-}
 
 footer h4 {
   color: #333;
-}
-
-footer a {
-  color: #0287FC;
 }
 
 #social-links,
 #social-links-footer {
   padding: 0;
 }
+
 #social-links li, #social-links-footer li {
   list-style: none;
   display: inline-block;
   text-align: center;
   width: 45px;
   height: 45px;
-  font-size: 18px;
   padding: 10px;
   background: #333;
   border: 2px solid #fff;
@@ -449,7 +442,7 @@ h2 {
 
   .photo {
     display: flex;
-    width: 33.3333%
+    width: 33.3333%;
   }
 
   .photo:nth-child(5) {
@@ -460,10 +453,11 @@ h2 {
     display: flex;
   }
 
-.card-gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .card {
     display: flex;
     width: 33.3333%;
