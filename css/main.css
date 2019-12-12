@@ -196,7 +196,7 @@ dd {
 }
 
 .btn {
-  font-family: Dosis, sans-serif;
+  font-family: sans-serif;
   font-size: 1.125rem;
 }
 
@@ -227,6 +227,7 @@ footer {
 footer h3 {
   color: #333;
   text-align: center;
+  margin-top: 0;
 }
 
 footer a {
@@ -329,19 +330,17 @@ footer h4 {
 }
 
 h2 {
-  font-size: 3rem;
   margin: 0;
 }
 
 .content-text p {
-  font-size: 1.5rem;
   line-height: 1.5;
   margin: .5em 0;
 }
 
 .content-text .btn {
   padding: .4em .75em .3em;
-  border-radius: 25px;
+  border-radius: 50px;
   border-width: 3px;
   color: #fff;
   text-decoration: none;
@@ -353,7 +352,7 @@ h2 {
 }
 
 .content-text .btn-big {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 .content-text .btn:hover {
@@ -465,6 +464,18 @@ h2 {
 
   .card-3 {
     display: flex;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .content-text p {
+    font-size: 1.5rem;
+  }
+
+  .content-text .btn {
+    font-size: 1.125rem;
   }
 
 }
